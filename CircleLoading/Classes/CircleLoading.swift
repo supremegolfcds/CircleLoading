@@ -168,7 +168,7 @@ public class CircleLoading: UIView {
         animation.fromValue = 0.0
         animation.toValue = CGFloat(direction * M_PI * 2)
         animation.repeatCount = HUGE
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         return animation
     }
     
